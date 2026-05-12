@@ -182,3 +182,28 @@
     border-right-color: var(--border);
   }
 }
+.productCard1{
+  font-style: italic;
+}
+.productCard1 > h3{
+  color: aqua;
+}
+.productCard2{
+ font-weight: bold; 
+}
+.productCard2 > h3{
+  color: bisque;
+}
+.productCard3{
+  color: white;
+}
+.header-img{
+  display: block;
+  margin: auto;
+  width: 15%;
+}
+.product-grid > div{
+  border: 1px solid white;
+  padding: 5px;
+  margin: 7px;
+}

@@ -7,6 +7,9 @@ import DateTime from './components/DateTimeCard.jsx'
 import Analiza from './components/Analiza.jsx'
 import Code from './components/CodeSnippet.jsx'
 import Article from './components/ArticleCard.jsx'
+import UserCard from './components/UserCard.jsx'
+import viteLogo from './assets/vite.svg'
+import ButtonComponent from './components/ButtonComponent.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <h2>Moduł 2</h2>
@@ -20,6 +23,16 @@ createRoot(document.getElementById('root')).render(
     <Article/>
     <Article/>
     <Article/>
+    <h2>Moduł 5</h2>
+    <UserCard name="Jan" role="Scenicowy" avatarUrl={viteLogo}/>
+    <UserCard name="Artur" role="Golfowy" avatarUrl={viteLogo} isOnline={true}/>
+    <UserCard name="Wiktor" role="Audikowy" avatarUrl={viteLogo}/>
+    <ButtonComponent label="dzik"/>
+    <ButtonComponent label="dzik" variant='danger' size='sm' disabled='true'/>
+    <ButtonComponent label="dzik" variant='secondary' size='lg'/>
+    <h2>Moduł 6</h2>
+
+
 
   </StrictMode>,
 )

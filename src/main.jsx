@@ -10,6 +10,7 @@ import Article from './components/ArticleCard.jsx'
 import UserCard from './components/UserCard.jsx'
 import viteLogo from './assets/vite.svg'
 import ButtonComponent from './components/ButtonComponent.jsx'
+import ToolTip from './components/ToolTip.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <h2>Moduł 2</h2>
@@ -30,7 +31,10 @@ createRoot(document.getElementById('root')).render(
     <ButtonComponent label="dzik"/>
     <ButtonComponent label="dzik" variant='danger' size='sm' disabled='true'/>
     <ButtonComponent label="dzik" variant='secondary' size='lg'/>
-    <h2>Moduł 6</h2>
+    <h2>Moduł 6</h2> 
+    <ToolTip hint="Zapisz zmiany">
+      <button>Zapisz</button>
+    </ToolTip>
 
 
 

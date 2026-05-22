@@ -13,7 +13,6 @@ function App() {
       <Header4/>
       <Product/>
       <Footer/>
-
     </>
   )
 }

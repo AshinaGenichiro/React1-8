@@ -11,6 +11,7 @@ import UserCard from './components/UserCard.jsx'
 import viteLogo from './assets/vite.svg'
 import ButtonComponent from './components/ButtonComponent.jsx'
 import ToolTip from './components/ToolTip.jsx'
+import UserProfile from './components/UserProfile.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <h2>Moduł 2</h2>
@@ -35,6 +36,12 @@ createRoot(document.getElementById('root')).render(
     <ToolTip hint="Zapisz zmiany">
       <button>Zapisz</button>
     </ToolTip>
+    <h2>Moduł 7</h2>
+    <UserProfile name="jack" email="cos@gmail.com" bio ="" website="cos.www" followerCount={1100}/>
+   <hr></hr>
+    <UserProfile name="Michael" email="Micahel@gmail.com" bio ="lorem" website="cos.www" followerCount={140}/>
+    <hr></hr>
+    <UserProfile name="xyz" email="xyz@gmail.com" bio ="" website="" isPremium={true} followerCount={5000}/>
 
 
 
